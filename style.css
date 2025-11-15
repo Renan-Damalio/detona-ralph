@@ -34,7 +34,7 @@ body {
 }
 
 .window.ralph {
-  background-image: url('https://i.imgur.com/Bv0Pz9A.png'); /* imagem estilizada de um personagem batendo */
+  background-image: url(detona-ralph/bomb-477229_1280.png); /* imagem estilizada de um personagem batendo */
   background-size: cover;
   background-position: center;
 }
