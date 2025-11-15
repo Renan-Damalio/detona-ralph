@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #222;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+#hud {
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+#game {
+  width: 330px;
+  height: 330px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+
+.window {
+  width: 100px;
+  height: 100px;
+  background: #444;
+  border-radius: 10px;
+  position: relative;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.window.ralph {
+  background-image: url('https://i.imgur.com/Bv0Pz9A.png'); /* imagem estilizada de um personagem batendo */
+  background-size: cover;
+  background-position: center;
+}
+
+#start {
+  margin-top: 25px;
+  padding: 10px 25px;
+  font-size: 1.2rem;
+  background: #00e676;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #000;
+}
+
+#start:hover {
+  background: #00c861;
+}
